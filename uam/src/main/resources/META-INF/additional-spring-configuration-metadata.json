@@ -1,0 +1,117 @@
+{"properties": [
+  {
+    "name": "username",
+    "type": "java.lang.String",
+    "description": "A description for 'username'"
+  },
+  {
+    "name": "password",
+    "type": "java.lang.String",
+    "description": "A description for 'password'"
+  },
+  {
+    "name": "app.datasource.rural.url",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.rural.url'"
+  },
+  {
+    "name": "app.datasource.rural.url",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.rural.url'"
+  },
+  {
+    "name": "app.datasource.rural.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.rural.username'"
+  },
+  {
+    "name": "app.datasource.rural.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.rural.password'"
+  },
+  {
+    "name": "app.datasource.rural.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.rural.driver-class-name'"
+  },
+  {
+    "name": "app.datasource.suburbana.url",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbana.url'"
+  },
+  {
+    "name": "app.datasource.suburbana.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbana.username'"
+  },
+  {
+    "name": "app.datasource.suburbana.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbana.password'"
+  },
+  {
+    "name": "app.datasource.suburbana.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbana.driver-class-name'"
+  },
+  {
+    "name": "app.datasource.urbana.url",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbana.url'"
+  },
+  {
+    "name": "app.datasource.urbana.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbana.username'"
+  },
+  {
+    "name": "app.datasource.urbana.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbana.password'"
+  },
+  {
+    "name": "app.datasource.urbana.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbana.driver-class-name'"
+  },
+  {
+    "name": "app.datasource.urbano.url",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbano.url'"
+  },
+  {
+    "name": "app.datasource.suburbano.url",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbano.url'"
+  },
+  {
+    "name": "app.datasource.urbano.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbano.username'"
+  },
+  {
+    "name": "app.datasource.urbano.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbano.password'"
+  },
+  {
+    "name": "app.datasource.urbano.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.urbano.driver-class-name'"
+  },
+  {
+    "name": "app.datasource.suburbano.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbano.driver-class-name'"
+  },
+  {
+    "name": "app.datasource.suburbano.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbano.password'"
+  },
+  {
+    "name": "app.datasource.suburbano.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.datasource.suburbano.username'"
+  }
+]}
