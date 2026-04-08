@@ -1,10 +1,12 @@
 package bdd.uam.mx.service;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import bdd.uam.mx.DTO.DatosPersonaDTO;
 import bdd.uam.mx.DTO.PersonaCreateDTO;
 import bdd.uam.mx.DTO.PersonaResponseDTO;
 import bdd.uam.mx.config.datasource.ZonaContext;
@@ -116,6 +118,19 @@ public class PersonaTransactionalService {
         }finally{
             ZonaContext.clear();
         }
+    }
 
+
+    @Transactional
+    public List<DatosPersonaDTO> obtenerDatosPersona(){
+        return personaRepository.findByDatosPersonaDTOs();
+    }
+
+    @Transactional
+    public BigDecimal actualizarSalario(BigDecimal nuevoSalario, Integer idPersonaDetalle){
+        PersonaDetalle personaDetalle = personaDetalleRepository.findById(idPersonaDetalle)
+                                        .orElseThrow(() -> new RuntimeException("No se encontro salario anterior")) ;
+        personaDetalle.setIngresoMensual(nuevoSalario);
+        return personaDetalleRepository.save(personaDetalle).getIngresoMensual();
     }
 }
