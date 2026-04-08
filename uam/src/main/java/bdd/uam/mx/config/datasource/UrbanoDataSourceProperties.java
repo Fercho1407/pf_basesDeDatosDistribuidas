@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@ConfigurationProperties(prefix = "app.datasource.rural")
+@ConfigurationProperties(prefix = "app.datasource.urbano")
 public class UrbanoDataSourceProperties {
     private String url;
     private String username;

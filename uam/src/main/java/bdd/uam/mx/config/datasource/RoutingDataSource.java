@@ -7,6 +7,6 @@ public class RoutingDataSource extends AbstractRoutingDataSource {
     @Override
     protected Object determineCurrentLookupKey() {
         Zona zona = ZonaContext.getZona();
-        return zona != null ? zona : Zona.RURAL;
+        return zona != null ? zona : Zona.URBANA;
     }
 }

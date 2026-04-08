@@ -1,6 +1,9 @@
 package bdd.uam.mx.model;
 
+import bdd.uam.mx.config.datasource.Zona;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -20,7 +23,9 @@ public class Localidad {
     private Integer idLocalidad;
 
     private String nombre;
-    private String tipo;
+    
+    @Enumerated(EnumType.STRING)
+    private Zona tipo;
 
     @ManyToOne
     @JoinColumn(name = "idMunicipio")

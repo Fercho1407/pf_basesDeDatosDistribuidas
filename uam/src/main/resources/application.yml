@@ -4,25 +4,25 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
 
 app:
   datasource:
     rural:
-      url: jdbc:mysql://bdd-censo.rwlb.germany.rds.aliyuncs.com:3306/censo_rural
+      url: jdbc:mysql://censo-rural.rwlb.germany.rds.aliyuncs.com:3306/censo_rural
       username: rural
       password: Rural123+
       driver-class-name: com.mysql.cj.jdbc.Driver
 
     suburbano:
-      url: jdbc:mysql://bdd-censo.rwlb.germany.rds.aliyuncs.com:3306/censo_suburbano
+      url: jdbc:mysql://censo-suburbano.rwlb.germany.rds.aliyuncs.com:3306/censo_suburbano
       username: suburbano
       password: Suburbano123+
       driver-class-name: com.mysql.cj.jdbc.Driver
 
     urbano:
-      url: jdbc:mysql://bdd-censo.rwlb.germany.rds.aliyuncs.com:3306/censo_urbano
+      url: jdbc:mysql://censo-urbano.mysql.polardb.germany.rds.aliyuncs.com:3306/censo_urbano
       username: urbano
       password: Urbano123+
       driver-class-name: com.mysql.cj.jdbc.Driver

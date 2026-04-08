@@ -27,7 +27,7 @@ public class Hogar {
     private String tipo;
 
     @ManyToOne
-    @JoinColumn(name = "idVivienda")
+    @JoinColumn(name = "direccion")
     private Vivienda vivienda;
 
     @ManyToMany
