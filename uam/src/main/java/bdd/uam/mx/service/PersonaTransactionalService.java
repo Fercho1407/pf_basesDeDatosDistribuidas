@@ -133,4 +133,5 @@ public class PersonaTransactionalService {
         personaDetalle.setIngresoMensual(nuevoSalario);
         return personaDetalleRepository.save(personaDetalle).getIngresoMensual();
     }
+    
 }
