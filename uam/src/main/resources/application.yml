@@ -26,3 +26,7 @@ app:
       username: urbano
       password: Urbano123+
       driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  servlet:
+    context-path: /api

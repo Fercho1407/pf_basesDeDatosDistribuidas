@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import bdd.uam.mx.model.Vivienda;
 
-public interface ViviendaRepository extends JpaRepository<Vivienda, Integer>{
+public interface ViviendaRepository extends JpaRepository<Vivienda, String>{
     
 }

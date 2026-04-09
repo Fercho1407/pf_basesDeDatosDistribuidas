@@ -37,7 +37,7 @@ public class PersonaController {
     
     @GetMapping("/personas/{zona}")
     public ResponseEntity<List<DatosPersonaDTO>> obtnerDatosPersonaDTOs(@PathVariable Zona zona) {
-        return new ResponseEntity<>(personaService.obtenerPersonasZona(zona), HttpStatus.FOUND);
+        return new ResponseEntity<>(personaService.obtenerPersonasZona(zona), HttpStatus.OK);
     }
 
     @PostMapping("/persona/{zona}/{idPersonaDetalle}/{salario}")
