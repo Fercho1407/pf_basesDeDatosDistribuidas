@@ -10,8 +10,12 @@ export const GeografiaService = {
   },
 
   getMunicipiosByEntidad: (abreviatura: string) => {
+    const token = localStorage.getItem('jwt');
     return apiFetch<MunicipioResponseDTO[]>(`/municipios-entidad/${abreviatura}`, {
       method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${token}`
+      }
     });
   }
 
