@@ -1,0 +1,10 @@
+Correr el fron:
+cd C:\Users\luisf\OneDrive\Desktop\censo\pf_basesDeDatosDistribuidas\frontend\frontend-censo
+npm run preview -- --host
+
+Correr el backend
+cd C:\Users\luisf\OneDrive\Desktop\censo\pf_basesDeDatosDistribuidas
+c:; cd 'c:\Users\luisf\OneDrive\Desktop\censo\pf_basesDeDatosDistribuidas'; & 'C:\Program Files\Java\jdk-21\bin\java.exe' '@C:\Users\luisf\AppData\Local\Temp\cp_24t1elwnxt6gs42yf5zqfhly1.argfile' 'bdd.uam.mx.UamApplication'
+
+abrir el tunnel de cloudflared
+cloudflared tunnel run censo-front-tunnel

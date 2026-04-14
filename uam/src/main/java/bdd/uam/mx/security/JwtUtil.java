@@ -8,6 +8,11 @@ import org.springframework.stereotype.Component;
 import java.security.Key;
 import java.util.Date;
 
+/**
+ * crea los tokens
+ * los lee
+ * los valida
+ */
 @Component
 public class JwtUtil {
 
